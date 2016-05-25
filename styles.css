@@ -6,22 +6,27 @@ h2.intro {
 
 }
 
-img.intro {
+.intro {
+  font-weight: bolder;
   width: 50%;
-  align-items: center;
+  color:#595959;
+}
+
+.info {
+  font-style: bold;
+  font-size: 20px;
 }
 
 p {
   font-style: normal;
   font-family: sans-serif;
-  width: 50%;
   color:#595959;
 }
-p.intro {
-  font-style: normal;
-  font-family: sans-serif;
-  width: 50%;
-  color:#595959;
+
+.important {
+  color: #e60000;
+  font-size: 30px;
+  font-style: bold;
 }
 
 h1 {
